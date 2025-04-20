@@ -111,9 +111,9 @@ def reduce_matrix(matrix):
     
     return reduced_matrix, reduction_cost
 
-# Usage example with the matrix from your example
+# Usage example
 if __name__ == "__main__":
-    # The matrix specified in the example
+    
     distance_matrix = np.array([
         [INF, 19, 21, 15, 12],
         [19, INF, 5, 11, 7],
