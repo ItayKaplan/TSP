@@ -33,19 +33,17 @@ def nearest_neighbour(distance_matrix):
     
     return tour, total_distance
 
-# Usage example with the matrix from your example
+# Usage example
 if __name__ == "__main__":
-    INF = float('inf')  # Define infinity
+    INF = float('inf')
     
-    # The matrix specified in the example
     distance_matrix = np.array([
         [INF, 10, 15, 20],
         [10, INF, 35, 25],
         [15, 35, INF, 30],
         [20, 25, 30, INF]
     ])
-    
-    # Run the Nearest Neighbor algorithm
+
     tour, cost = nearest_neighbour(distance_matrix)
     print(f"Nearest Neighbor tour = {tour}")
     print(f"Nearest Neighbor cost = {cost}")
